@@ -1,0 +1,30 @@
+/* Styl dla kontenera aplikacji */
+.app-container {
+  text-align: center;
+  background-color: #e0f7fa;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Styl dla nagłówka - wyśrodkowanie poziome */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00796b;
+  margin-bottom: 20px;
+  width: 100%; /* Sprawia, że tekst rozciąga się na całą szerokość */
+  text-align: center; /* Wyśrodkowanie poziome */
+  position: absolute; /* Pozycjonowanie absolutne */
+  top: 20px; /* Ustawienie odległości od góry */
+  left: 50%; /* Pozycjonowanie na środku */
+  transform: translateX(-50%); /* Przesunięcie o połowę szerokości, by wyśrodkować */
+}
+
+/* Styl dla formularza i tabeli (jeśli istnieje) */
+form {
+  /* Styl formularza */
+}
+
+table {
+  /* Styl tabeli */
+}
